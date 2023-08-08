@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@200;300;400;500;600;700&display=swap');
+
+* {
+    font-family: 'IBM Plex Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+.fa {
+    width: 24px;
+    height: 24px;
+    color: white;
+}
+
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000;
+    padding: 10px;
+
+}
+
+.header-logo-link {
+    color: white;
+}
+
+.header-menu {
+    display: flex;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.header-dropdown {
+    display: none;   
+    position: fixed;
+    right: 0;
+    bottom: -50px;
+    left: 0;
+    background-color: #000;
+    width: 100%;
+    height: 100vh;
+    padding: 10px;
+    z-index: 1;
+}
+
+.home-noscroll {
+    overflow: hidden;
+}
+
+.header-dropdown-open {
+    display: block;
+}
+
+.header-dropdown-link {
+    color: #fff;
+}
+
+.main-content {
+    padding: 40px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.main-content-title {
+    font-size: 30px;
+    text-align: center;
+    font-weight: 300;
+}
+
+.main-content-btn {
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 0;
+    background-color: rgb(64, 192, 87);
+    cursor: pointer;
+    color: #fff;
+    font-weight: 700;
+    box-shadow: 0 0 10px #000;
+}
+
+.main-course {
+    padding: 10px 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.main-course-card {
+    /* background-color: #887f7f; */
+    box-shadow: 0 0 10px #000;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+    align-items: center;
+    text-align: center;
+}
+
+.main-course-html img {
+    width: 100%;
+    height: 200px;
+}
+
+.main-course-btn {
+    display: flex;
+    padding: 10px 20px;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: aqua;
+    border: none;
+    border-radius: 10px;
+}
